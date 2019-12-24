@@ -1,0 +1,22 @@
+﻿<Window x:Class="School.EditStudent"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:School"
+        mc:Ignorable="d"
+        Title="EditStudent" Height="450" Width="800" Loaded="Window_Loaded">
+    <Grid Background="Aquamarine">
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <DataGrid HorizontalAlignment="Left" Name="EditGrid" Height="289" Margin="35,30,0,0" VerticalAlignment="Top" Width="455"/>
+        <Button Content="Cancel" HorizontalAlignment="Left" Margin="672,346,0,0" VerticalAlignment="Top" Width="112" Background="Red" FontWeight="Bold" Foreground="Black" Height="46" Click="Button_Click"/>
+        <Button Content="Update Student Info" HorizontalAlignment="Left" Margin="568,30,0,0" VerticalAlignment="Top" Width="216" Background="YellowGreen" FontWeight="Bold" Foreground="Black" Height="46" Click="Button_Click_1"/>
+        <Button Content="Delete Student" HorizontalAlignment="Left" Margin="568,97,0,0" VerticalAlignment="Top" Width="216" Background="YellowGreen" FontWeight="Bold" Foreground="Black" Height="46" Click="Button_Click_2"/>
+        <Button Content="Add Class" HorizontalAlignment="Left" Margin="568,168,0,0" VerticalAlignment="Top" Width="216" Background="YellowGreen" FontWeight="Bold" Foreground="Black" Height="46"/>
+        <Button Content="Drop Class" HorizontalAlignment="Left" Margin="568,246,0,0" VerticalAlignment="Top" Width="216" Background="YellowGreen" FontWeight="Bold" Foreground="Black" Height="46"/>
+
+    </Grid>
+</Window>

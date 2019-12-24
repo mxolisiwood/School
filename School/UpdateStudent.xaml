@@ -1,0 +1,27 @@
+﻿<Window x:Class="School.UpdateStudent"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:School"
+        mc:Ignorable="d"
+        Title="UpdateStudent" Height="350" Width="400" Loaded="Window_Loaded">
+    <Grid Background="DarkSeaGreen">
+        <Label Content="First Name" HorizontalAlignment="Left" Margin="10,42,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.36,1.038" Width="82"/>
+        <Label Content="Last Name" HorizontalAlignment="Left" Margin="10,87,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.36,1.038" Width="82"/>
+        <Label Content="Gender" HorizontalAlignment="Left" Margin="10,130,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.36,1.038" Width="82"/>
+        <Label Content="GPA" HorizontalAlignment="Left" Margin="10,178,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.36,1.038" Width="82"/>
+        <TextBox HorizontalAlignment="Left" Name="txtfirstname" Height="23" Margin="97,45,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="194"/>
+        <TextBox HorizontalAlignment="Left" Name="txtlastname" Height="23" Margin="97,87,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="194"/>
+        <TextBox HorizontalAlignment="Left" Name="txtgpa" Height="23" Margin="253,181,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="38"/>
+        <RadioButton  HorizontalAlignment="Left" Name="Male" Margin="134,136,0,0" VerticalAlignment="Top" Height="20" Width="20" RenderTransformOrigin="1.034,0.366"/>
+        <Label Content="Male" HorizontalAlignment="Left" Margin="154,130,0,0" VerticalAlignment="Top" Width="50"/>
+        <RadioButton  HorizontalAlignment="Left" Name="Female" Margin="212,136,0,0" VerticalAlignment="Top" Height="20" Width="20"/>
+        <Label Content="Female" HorizontalAlignment="Left" Margin="241,130,0,0" VerticalAlignment="Top" Width="50"/>
+        <RadioButton  HorizontalAlignment="Left" Name="Other" Margin="305,136,0,0" VerticalAlignment="Top" Height="20" Width="20"/>
+        <Label Content="Other" HorizontalAlignment="Left" Margin="334,130,0,0" VerticalAlignment="Top" Width="50" RenderTransformOrigin="1.409,0.861"/>
+        <Button Content="Update" Name="btnAdd" Background="Yellow" HorizontalAlignment="Left" Margin="54,263,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="0.308,0.592" Height="32" Click="btnAdd_Click"/>
+        <Button Content="Cancel" Name="btnCancel" Background="Red" HorizontalAlignment="Left" Margin="241,263,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="0.308,0.592" Height="32" Click="btnCancel_Click"/>
+
+    </Grid>
+</Window>
